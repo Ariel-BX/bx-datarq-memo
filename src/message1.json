@@ -1,0 +1,28 @@
+{
+    "Type" : "Notification",
+    "MessageId" : "7a83d4c5-ad06-5df4-9a6b-8b4f85f2c69e",
+    "TopicArn" : "arn:aws:sns:us-west-2:311028179126:topic-cmkin-tracking-visibility-center",
+    "Subject" : "Test message",
+    "Message" : "{\n  \"_id\": \"6671b6d5465c601b584800d1\",\n  \"timestamp\": \"2024-06-18T16:33:25.657+00:00\",\n  \"service\": \"notify\",\n  \"stepDetail\": \"Data Processing Started\",\n  \"isProcessed\": true,\n  \"eventDate\": \"2024-06-18T11:34:58.000Z\",\n  \"error\": \"\",\n  \"eventObservation\": \"CONSERJE 1-9\",\n  \"orderId\": \"4500008774\",\n  \"observationPublish\": \"Retransmitted\",\n  \"eventCode\": \"DL\",\n  \"media\": \"string\",\n  \"endpointCliente\": \"http://bx-srv-intcus-tracking-utils.prod-ns-clientes-intcus/api/intcus/bx-srv-intcus-tracking-utils/v1/zara/tracking\",\n  \"payload\": \"{\\\"orderTrackingNumber\\\":\\\"4500008774\\\",\\\"orderNumber\\\":\\\"[412697828465]\\\",\\\"statusDate\\\":\\\"2024-06-18T11:34:58.000Z\\\",\\\"remarks\\\":\\\"CONSERJE 1-9\\\",\\\"itxCode\\\":\\\"76309346-1-8\\\",\\\"courierCode\\\":\\\"923758\\\",\\\"courierDesc\\\":\\\"Blue Express Chile\\\",\\\"url\\\":\\\"http://www.bluex.cl/nacional?documentos=\\\",\\\"courierStatus\\\":\\\"DL\\\",\\\"statusRecord\\\":\\\"not_processed\\\",\\\"type\\\":\\\"dayana trujillo\\\",\\\"account\\\":\\\"76309346-1-8\\\"}\",\n  \"segment\": \"ecommerce\",\n  \"trackingId\": 1733868223,\n  \"messageId\": \"fbe3a2f2-eb3a-4c9b-9b05-cff192440331\",\n  \"codeResponse\": \"200 OK\",\n  \"responseMessage\": \"{\\\"success\\\":\\\"true\\\"}\",\n  \"messageJson\": \"{\\\"Type\\\":\\\"Notification\\\",\\\"MessageId\\\":\\\"b72260a7-046c-5dd2-839d-3e4cbc9b0212\\\"}\",\n  \"sellerAccount\": \"200200012-1-19\"\n}",
+    "Timestamp" : "2024-10-16T20:48:52.071Z",
+    "SignatureVersion" : "1",
+    "Signature" : "EFNszX6m/WmLOY6TT9Ug4TPF+EEa/B11rCOw1p3ErhSNdnbJ5C7wb5q3C56FWdYBQra6dNYdjLM4XlhzQU0ioRnNnr9c0dbP7dxVk0VL+6qJrhFZAEWVWShg971QG5Lo3EZMn+sYlwXZX54+6G1J71cmpz7n+JgKazgin22J1F0DbWOfFziyy3ySTAcZTWqUC9JBvinJl7fWZAOO1+mqsZLH5mdlPTjFFh7dIxk6rw9cnFwI0x8cMvewklo91S3E0QtDNFrjlU8+luffzx6xPUxSoUh+TBrGh28NIM2djd32lKPAX/QOx8UNJyv2ifG1WzX5ezf6XOURAs+xWrVoDQ==",
+    "SigningCertURL" : "https://sns.us-west-2.amazonaws.com/SimpleNotificationService-60eadc530605d63b8e62a523676ef735.pem",
+    "UnsubscribeURL" : "https://sns.us-west-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-west-2:311028179126:topic-cmkin-tracking-visibility-center:733a1e6f-c19f-4720-8ef8-42200bfbf74a",
+    "MessageAttributes" : {
+      "traceId" : {"Type":"String","Value":"fef44dcad950bc564fed2577261c0354"},
+      "eventId" : {"Type":"String","Value":"dcb2cbb2-09ff-446e-b4e8-f33c5cdd77cb"},
+      "businessCapacity" : {"Type":"String","Value":"cmkin"},
+      "entityType" : {"Type":"String","Value":"customerTracking"},
+      "channel" : {"Type":"String","Value":"web"},
+      "entityId" : {"Type":"String","Value":"ad3g6rx15mbm5w9ypln5lk6pzk7g3g"},
+      "eventType" : {"Type":"String","Value":"customerTrackingCreated"},
+      "version" : {"Type":"String","Value":"1.0"},
+      "parentSpanId" : {"Type":"String","Value":"069f65a8ad472f61"},
+      "spanId" : {"Type":"String","Value":"97f84d39c6918528"},
+      "datetime" : {"Type":"String","Value":"2023-11-23T19:21:06+0000"},
+      "domain" : {"Type":"String","Value":"clientes"},
+      "subdomain" : {"Type":"String","Value":"intcus"},
+      "timestamp" : {"Type":"Number","Value":"1700766980"}
+    }
+  }

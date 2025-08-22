@@ -1,0 +1,48 @@
+openapi: 3.0.0
+info:
+  title: Health Check API
+  description: API para verificar el estado de salud del servicio.
+  version: 1.0.0
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+servers:
+  - url: https://api.mi-dominio.com
+    description: Servidor de producción
+paths:
+  /healthcheck:
+    get:
+      operationId: getHealthCheck
+      summary: Verifica el estado de salud del servicio
+      description: Devuelve el estado de salud del servicio.
+      security: []
+      responses:
+        '200':
+          description: Servicio está funcionando correctamente
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "UP"
+        '400':
+          description: Solicitud incorrecta
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "DOWN"
+components:
+  schemas:
+    HealthCheckResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          description: Estado del servicio
+          example: "UP"

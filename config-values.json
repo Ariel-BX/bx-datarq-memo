@@ -1,0 +1,20 @@
+{
+    "domain": "tecnogia",
+    "subdomain": "arqdat",
+    "capability": "datarq",
+    "entity": "message-mover",
+    "namespace": "ns-tecnogia-arqdat",
+    "component": "microservice",
+    "language": "python",
+    "resource": "pod",
+    "cloud": "aws",
+    "application": "message-mover-app",
+    "runtime_version": "3.12",
+    "build_system": "pip",
+    "gh_packages_consume": "false",
+    "gh_packages_publish": "false",
+    "sonar_test_framework": "pytest",
+    "sonar_coverage_tool": "coverage",
+    "sonar_exclusions": "",
+    "sonar_coverage_exclusions": ""
+  }
